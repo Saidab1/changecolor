@@ -1,0 +1,2 @@
+const t=prompt("what's your name?"),e=document.querySelector(".sayhi-container"),n=document.createElement("p");n.textContent=function(t){return"Hello "+t}(t),n.style.fontSize="30px",e.appendChild(n);const o=document.querySelector("button");o.classList.remove("hide"),function(t,e){t.addEventListener("click",()=>e.style.color=function(){const t=["#F54291","#4CD3C2","#OE9AA7","#FFCD3C","#A8DF65","#9OOC3F"];return t[Math.floor(Math.random()*t.length)]}())}(o,n);
+//# sourceMappingURL=index.modern.js.map

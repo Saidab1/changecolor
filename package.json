@@ -1,0 +1,25 @@
+{
+  "name": "change-color-randomly",
+  "version": "1.0.0",
+  "description": "You can change the color of a text randomly",
+  "source": "index.js",          
+  "main": "dist/index.js",           
+  "module": "dist/index.module.js",  
+  "unpkg": "dist/index.umd.js",      
+  "scripts": {
+    "build": "microbundle",        
+    "dev": "microbundle watch"    
+  },
+  "repository": {
+    "url": "https://github.com/Saidab1/changecolor",
+    "type": "git"
+  },
+  "keywords": [
+    "codeable"
+  ],
+  "author": "Saida Brito <saidabrito57@gamil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.2"
+  }
+}

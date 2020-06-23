@@ -1,0 +1,2 @@
+!function(e){"function"==typeof define&&define.amd?define(e):e()}(function(){var e=prompt("what's your name?"),t=document.querySelector(".sayhi-container"),n=document.createElement("p");n.textContent=function(e){return"Hello "+e}(e),n.style.fontSize="30px",t.appendChild(n);var o=document.querySelector("button");o.classList.remove("hide"),function(e,t){e.addEventListener("click",function(){return t.style.color=(e=["#F54291","#4CD3C2","#OE9AA7","#FFCD3C","#A8DF65","#9OOC3F"])[Math.floor(Math.random()*e.length)];var e})}(o,n)});
+//# sourceMappingURL=index.umd.js.map
